@@ -1,1 +1,116 @@
-# Web-Design
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Okinawa Churaumi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: '1'; /* 사용자 삽입 폰트 */
+      color: white;
+      background: url('홈') no-repeat center center / cover; /* 배경 이미지 */
+      height: 100vh;
+      position: relative;
+    }
+
+    nav {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    nav img {
+      height: 40px;
+    }
+
+    .nav-links {
+      position: absolute;
+      top: 30px;
+      right: 60px;
+      display: flex;
+      gap: 30px;
+      font-size: 14px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .title {
+      position: absolute;
+      top: 35%;
+      left: 10%;
+      font-size: 80px;
+      line-height: 1.1;
+      font-weight: 200;
+    }
+
+    .description {
+      position: absolute;
+      bottom: 160px;
+      left: 40px;
+      right: 40px;
+      font-size: 18px;
+      line-height: 1.6;
+      font-weight: 300;
+    }
+
+    .social {
+      position: absolute;
+      bottom: 40px;
+      left: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      font-size: 14px;
+    }
+
+    .social a {
+      display: flex;
+      align-items: center;
+      color: white;
+      text-decoration: none;
+    }
+
+    .social img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <img src="3" alt="로고"> <!-- 로고 이미지 -->
+  </nav>
+
+  <div class="nav-links">
+    <a href="#">About</a>
+    <a href="#">Coral Reef Travel</a>
+    <a href="#">Kuroshio Travel</a>
+    <a href="#">Deep Sea Travel</a>
+  </div>
+
+  <div class="title">
+    OKINAWA<br>CHURAUMI
+  </div>
+
+  <div class="description">
+    오키나와의 신비를 있는 그대로.<br>
+    수족관에서는 신비로 가득 찬 오키나와 생물들의 웅대한 세계가 펼쳐집니다.<br><br>
+    태양의 빛이 쏟아지는 ‘산호 바다’ 수조에서는, 대규모 산호의 사육 전시를 보실 수 있습니다. 그리고,<br>
+    세계 최대의 물고기 고래상어의 세계 최초로 박식에 성공한 나고만대하(쿠라우미)를 관찰하실 수 있는<br>
+    박력감 넘치는 거대 수조 ‘쿠로시오의 바다’. 여기에 수심까지 깊은 음침사인 오키나와 심해를 재현한<br>
+    ‘심층의 바다’ 수조 등 오키나와의 바다를 그대로 체감하실 수 있습니다.
+  </div>
+
+  <div class="social">
+    <a href="#"><img src="4" alt="X 아이콘">X (Twitter)</a>
+    <a href="#"><img src="5" alt="Facebook 아이콘">Facebook</a>
+    <a href="#"><img src="6" alt="Instagram 아이콘">Instagram</a>
+    <a href="#"><img src="7" alt="Youtube 아이콘">Youtube</a>
+    <a href="#"><img src="8" alt="Line 아이콘">Line</a>
+  </div>
+</body>
+</html>
